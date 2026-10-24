@@ -1,0 +1,9 @@
+n=int(input("Enter a number: "))
+
+for i in range(n):
+    for j in range(n):
+        if n-i-1<=j:
+            print("*",end=' ')
+        else:
+            print(" ",end=' ')
+    print()
